@@ -1,0 +1,19 @@
+{
+    "ignored": [
+        "node_modules",
+        "bower_components",
+        "dist",
+        "build",
+        "test",
+        "tests",
+        "example",
+        "examples",
+        "demo",
+        "demos",
+        "docs",
+        "documentation",
+        "doc",
+        "document",
+        "src/webapp/WEB-INF/layouts"
+    ]
+}
