@@ -25,7 +25,7 @@
                                 </div>
 
                                 <div class="card-content">
-                                    <h4 class="card-title">Team 4 </h4>
+                                    <h4 class="card-title">Luyện Vi Hữu Khiêm</h4>
                                     <h6 class="category text-gray">B19DCVT204</h6>
                                     <p class="card-description">
 
