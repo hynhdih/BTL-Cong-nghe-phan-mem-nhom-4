@@ -20,7 +20,7 @@
                             <div class="card card-profile">
                                 <div class="card-image">
                                     <a href="">
-                                        <img class="img" src="${contextPath}/resources/img/examples/card-profile1.jpg" />
+                                        <img class="img" src="${contextPath}/resources/img/examples/Khiem.jpg" />
                                     </a>
                                 </div>
 
@@ -42,7 +42,7 @@
                             <div class="card card-profile">
                                 <div class="card-image">
                                     <a href="">
-                                        <img class="img" src="${contextPath}/resources/img/examples/card-profile2.jpg" />
+                                        <img class="img" src="${contextPath}/resources/img/examples/Huy.jpg" />
                                     </a>
                                 </div>
 
@@ -66,7 +66,7 @@
                             <div class="card card-profile">
                                 <div class="card-image">
                                     <a href="">
-                                        <img class="img" src="${contextPath}/resources/img/examples/card-project1.jpg" />
+                                        <img class="img" src="${contextPath}/resources/img/examples/DA.jpg" />
                                     </a>
                                 </div>
 
@@ -86,7 +86,7 @@
                             <div class="card card-profile">
                                 <div class="card-image">
                                     <a href="">
-                                        <img class="img" src="${contextPath}/resources/img/examples/card-project2.jpg" />
+                                        <img class="img" src="${contextPath}/resources/img/examples/Linh.jpg" />
                                     </a>
                                 </div>
 
@@ -106,7 +106,7 @@
                             <div class="card card-profile">
                                 <div class="card-image">
                                     <a href="">
-                                        <img class="img" src="${contextPath}/resources/img/examples/card-project4.jpg" />
+                                        <img class="img" src="${contextPath}/resources/img/examples/Tuyen.jpg" />
                                     </a>
                                 </div>
 
