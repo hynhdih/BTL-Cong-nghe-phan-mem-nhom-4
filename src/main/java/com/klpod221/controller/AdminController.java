@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class AdminController {
     @Autowired
     private SecurityService securityService;
-
+// Event Service
     @Autowired
     private EventService eventService;
 
