@@ -41,7 +41,7 @@ public class AuthController {
             return "admin/login";
         }
     }
-
+// Dang xuat
     @RequestMapping(value = "/admin/logout", method = RequestMethod.GET)
     public String logout() {
         securityService.logout();
