@@ -59,7 +59,7 @@ public class EventService {
         this.disableOutdatedEvent();
         return (List<EventModel>) eventRepository.findByIsActiveOrderByIdDesc(1);
     }
-
+//Tra ve du lieu list eventmodel
     public List<EventModel> userPageSearchEvent(String search) {
         this.disableOutdatedEvent();
         return (List<EventModel>) eventRepository.userCustomSearch(search);
@@ -75,7 +75,7 @@ public class EventService {
         }
     }
 
-    
+
     private Boolean parseDatetimeAndCompareWithToday(String datetime) {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm dd/MM/yyyy");
         try {
