@@ -16,7 +16,7 @@ public class UserController {
 
     @Autowired
     private EventService eventService;
-
+// Trang home
     @RequestMapping(value = { "/", "/home" }, method = RequestMethod.GET)
     public String home() {
         return "home";
