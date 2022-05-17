@@ -18,7 +18,7 @@ public class EventService {
     
     @Autowired
     private EventRepository eventRepository;
-
+// Luu va cai dat trang thai su kien
     public void save(EventModel event) {
         event.setIsActive(1);
         eventRepository.save(event);
