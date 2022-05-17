@@ -18,7 +18,7 @@ public interface EventRepository extends CrudRepository<EventModel, Long> {
     List<EventModel> findByOrderByIdDesc();
 
     List<EventModel> findByIsActiveOrderByIdDesc(int status);
-
+//customSearchOnly
     @Query(value="SELECT * FROM events u WHERE ((u.name LIKE %:search%) OR (u.description LIKE %:search%) OR (u.location LIKE %:search%) OR (u.famous_person LIKE %:search%) OR (u.free_food LIKE %:search%)) ORDER BY id DESC", nativeQuery = true)
     List<EventModel> customSearchOnly(@Param("search") String search);
 
