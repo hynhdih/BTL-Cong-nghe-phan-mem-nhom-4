@@ -49,7 +49,7 @@ public class AdminController {
             return "redirect:/admin/login";
         }
     }
-
+// Tim kiem su kien
     @RequestMapping(value = "/admin/events/search", method = RequestMethod.GET)
     public String search(String search, int searchStatus, Model model) {
         if (securityService.isLoggedIn()) {
