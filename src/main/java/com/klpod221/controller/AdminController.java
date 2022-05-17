@@ -62,7 +62,7 @@ public class AdminController {
             return "redirect:/admin/login";
         }
     }
-
+// Xoa su kien
     @RequestMapping(value = "/admin/events/delete", method = RequestMethod.GET)
     public String delete(Long id, Model model) {
         if (securityService.isLoggedIn()) {
