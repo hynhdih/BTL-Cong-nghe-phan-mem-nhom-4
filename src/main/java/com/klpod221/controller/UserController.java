@@ -28,7 +28,7 @@ public class UserController {
         model.addAttribute("events", events);
         return "events";
     }
-
+// Tim kiem o phia user
     @RequestMapping(value = "/events/search", method = RequestMethod.GET)
     public String users(String search, Model model) {
         List<EventModel> events = eventService.userPageSearchEvent(search);
