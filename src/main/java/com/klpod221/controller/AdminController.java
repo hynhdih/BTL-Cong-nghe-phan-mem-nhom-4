@@ -79,7 +79,7 @@ public class AdminController {
             return "redirect:/admin/login";
         }
     }
-
+// Chinh sua su kien
     @RequestMapping(value = "/admin/events/edit", method = RequestMethod.GET)
     public String edit(EventModel request, Model model) {
         if (securityService.isLoggedIn()) {
