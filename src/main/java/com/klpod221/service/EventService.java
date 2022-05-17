@@ -75,7 +75,7 @@ public class EventService {
         }
     }
 
-
+    
     private Boolean parseDatetimeAndCompareWithToday(String datetime) {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm dd/MM/yyyy");
         try {
