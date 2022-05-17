@@ -29,7 +29,7 @@ public class AuthController {
         }
         return "admin/login";
     }
-
+// Controller nhan du lieu
     @RequestMapping(value = "/admin/login", method = RequestMethod.POST)
     public String login(String username, String password, Model model) {
         AdminModel admin = adminService.findByUsername(username);
