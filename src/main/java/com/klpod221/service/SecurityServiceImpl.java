@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class SecurityServiceImpl implements SecurityService {
     @Autowired
     private HttpSession session;
-
+// Session tao va luu username
     @Override
     public void login(String username) {
         session.setAttribute("username", username);
