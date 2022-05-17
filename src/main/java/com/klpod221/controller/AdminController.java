@@ -30,7 +30,7 @@ public class AdminController {
             return "redirect:/admin/login";
         }
     }
-
+// Tạo sự kiện
     @RequestMapping(value = "/admin/events/create", method = RequestMethod.GET)
     public String events(EventModel request, Model model) {
         if (securityService.isLoggedIn()) {
