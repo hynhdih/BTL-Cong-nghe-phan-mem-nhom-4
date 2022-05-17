@@ -21,7 +21,7 @@ public class AuthController {
 
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
-
+// Trả thông tin về cho view
     @RequestMapping(value = "/admin/login", method = RequestMethod.GET)
     public String login(Model model) {
         if (securityService.isLoggedIn()) {
