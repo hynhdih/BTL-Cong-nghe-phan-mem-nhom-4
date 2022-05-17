@@ -21,7 +21,7 @@ public class UserController {
     public String home() {
         return "home";
     }
-
+// Danh sach su kien
     @RequestMapping(value = "/events", method = RequestMethod.GET)
     public String events(Model model) {
         List<EventModel> events = eventService.userPageGetAllEvent();
