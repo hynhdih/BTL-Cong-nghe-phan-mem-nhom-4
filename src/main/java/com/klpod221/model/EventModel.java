@@ -16,7 +16,7 @@ public class EventModel {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+// dinh nghia cac bien du lieu.
     @Column(name = "name")
     private String name;
 
@@ -39,7 +39,7 @@ public class EventModel {
     private String famousPerson;
 
     @Column(name = "free_food")
-    private String freeFood;
+    private String freeFood; 
 
     @Column(name = "is_active")
     private int isActive;
