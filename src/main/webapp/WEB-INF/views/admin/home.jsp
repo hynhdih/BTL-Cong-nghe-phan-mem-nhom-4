@@ -4,6 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <jsp:include page="${contextPath}/WEB-INF/layouts/main/_header.jsp" />
 //Le Van Linh
+//NGUYEN THANH TUYEN
 <body>
     <jsp:include page="${contextPath}/WEB-INF/layouts/admin/_navbar.jsp" />
     <c:if test="${!empty param.response}">
