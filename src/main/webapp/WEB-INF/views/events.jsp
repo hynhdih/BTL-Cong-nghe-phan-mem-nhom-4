@@ -3,13 +3,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <jsp:include page="${contextPath}/WEB-INF/layouts/main/_header.jsp" />
-//Le Van Linh
+
+//Nguyễn Đức Anh
+
 <body class="index-page">
     <jsp:include page="${contextPath}/WEB-INF/layouts/user/_eventsPageNavbar.jsp" />
     <div class="main main-raised">
         <br><br><br>
         <div class="cards" id="morphing">
-
+            
+            //Phan container
             <div class="container">
                 <div class="title">
                     <h2 id="morphingCards">All Active Event</h2>
