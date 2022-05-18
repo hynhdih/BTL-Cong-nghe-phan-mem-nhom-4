@@ -80,6 +80,7 @@
                           <div class="col-md-3">
                             <button
                             class="btn btn-rose btn-round pull-right"
+                                    // lay
                             data-toggle="modal"
                             data-target="#createEventModal"
                             >
@@ -104,12 +105,13 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    // event dau tien trong thi tra ve no data
                                     <c:if test="${empty events}">
                                         <tr>
                                             <td colspan="8" class="text-center">No data</td>
                                         </tr>
                                     </c:if>
-                                    <c:forEach var="event" items="${events}">
+                                    <c:forEach var="event" items="${events}"> //duyet tung enven trong mang
                                         <tr>
                                             <td class="text-center">${event.id}</td>
                                             <td>${event.name}</td>
@@ -205,6 +207,7 @@
                                                         >event</i
                                                     >
                                                 </span>
+                                                
                                                 <input
                                                     required
                                                     name="name"
