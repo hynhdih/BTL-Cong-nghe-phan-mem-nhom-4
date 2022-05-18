@@ -29,7 +29,7 @@ public class EventService {
     }
 
     public List<EventModel> findAll() {
-        this.disableOutdatedEvent();
+        this.disableOutdatedEvent(); // ham nay tu dong bo nhung event bi qua han.
         return (List<EventModel>) eventRepository.findByOrderByIdDesc();
     }
 
