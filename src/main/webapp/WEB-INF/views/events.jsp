@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <jsp:include page="${contextPath}/WEB-INF/layouts/main/_header.jsp" />
-
+//Le Van Linh
 <body class="index-page">
     <jsp:include page="${contextPath}/WEB-INF/layouts/user/_eventsPageNavbar.jsp" />
     <div class="main main-raised">
