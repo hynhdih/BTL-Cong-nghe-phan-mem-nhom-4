@@ -368,7 +368,7 @@
                                 class="modal-title card-title text-center"
                                 id="myModalLabel"
                             >
-                                Events ${event.name} Info
+                                Events ${event.name} Info // tra ve du lieu cua tung event
                             </h2>
                         </div>
                         <div class="modal-body">
