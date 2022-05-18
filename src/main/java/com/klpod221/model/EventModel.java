@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @Entity
-@Table(name = "events")
+@Table(name = "events")//dinh nghia bang events.
 @EnableJpaAuditing
 public class EventModel {
     @Id
