@@ -16,7 +16,7 @@ public class EventModel {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-// dinh nghia cac bien du lieu.
+// dinh nghia cac bien du lieu theo tung cot va bien.
     @Column(name = "name")
     private String name;
 
