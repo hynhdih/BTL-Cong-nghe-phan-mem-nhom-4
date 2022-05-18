@@ -7,13 +7,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "admin")
+@Table(name = "admin") //dinh nghia table admin
 public class AdminModel {
 
-    private Long id;
+    private Long id; // dinh nghia id
 
-    private String username;
-    private String password;
+    private String username;// dinh nghia username
+    private String password;// dinh nghia password
 
     public AdminModel() {
     }
