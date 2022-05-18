@@ -7,6 +7,7 @@
 //NGUYEN THANH TUYEN
 <body>
     <jsp:include page="${contextPath}/WEB-INF/layouts/admin/_navbar.jsp" />
+    //kiem tra param.response
     <c:if test="${!empty param.response}">
         <div class="alert alert-success">
             <div class="container">
