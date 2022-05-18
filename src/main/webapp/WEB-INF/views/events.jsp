@@ -17,6 +17,7 @@
                 <div class="title">
                     <h2 id="morphingCards">All Active Event</h2>
                 </div>
+                // Phan tra du lieu event 
                 <div class="col-md-12">
                     <form action="/events/search" method="GET" role="search">
                         <div class="form-group col-md-4">
