@@ -4,6 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <jsp:include page="${contextPath}/WEB-INF/layouts/main/_header.jsp" />
 //Le Van Linh
+//Nguyen Thanh Tuyen
 <body class="login-page">
     <jsp:include page="${contextPath}/WEB-INF/layouts/auth/_header.jsp" />
 
@@ -22,16 +23,16 @@
                         <form
                             class="form"
                             method="POST"
-                            action="${contextPath}/admin/login"
+                            action="${contextPath}/admin/login" // duong dan login
                         >
-                            <div class="header header-primary text-center">
-                                <h4 class="card-title">Admin</h4>
+                            <div class="header header-primary text-center">  //bootstrap
+                                <h4 class="card-title">Admin</h4>  //bootstrap
                             </div>
-                            <p class="description text-center">
+                            <p class="description text-center">  //bootstrap
                                 Enter your credentials to login
                             </p>
-                            <div class="card-content">
-                                <div class="input-group">
+                            <div class="card-content">  //bootstrap
+                                <div class="input-group">  //bootstrap
                                     <span class="input-group-addon">
                                         <i class="material-icons">face</i>
                                     </span>
@@ -39,14 +40,14 @@
                                         name="username"
                                         required
                                         type="text"
-                                        class="form-control"
+                                        class="form-control"   //bootstrap
                                         placeholder="Username..."
                                     />
                                 </div>
 
-                                <div class="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="material-icons"
+                                <div class="input-group">  //bootstrap
+                                    <span class="input-group-addon">  //bootstrap
+                                        <i class="material-icons"  //bootstrap
                                             >lock_outline</i
                                         >
                                     </span>
