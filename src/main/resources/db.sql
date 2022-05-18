@@ -1,4 +1,4 @@
-
+//co so du lieu: bao gom 2 bang admin va events.
 CREATE Table admin (
   id INTEGER PRIMARY KEY AUTO_INCREMENT,
   username VARCHAR(255),
